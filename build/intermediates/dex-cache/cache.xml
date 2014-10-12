@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\core-1.0-97b5efb6a6bf8aa69c8bb81f03ba009f71204698.jar"
+        jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6ac4ea185c994c017bf6fc62b07ef15fb3f10e1f"/>
+    <item
+        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-1.0-SNAPSHOT-47a414b13944b2730a67cd161983fe9c6fa07716.jar"
+        jar="C:\Users\majac\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.0-SNAPSHOT\e544ea790a29a33485f683895bfa6507d805e91d\gdx-1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e544ea790a29a33485f683895bfa6507d805e91d"/>
+    <item
+        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.0-SNAPSHOT-42b599fd5613432a54e89d5a224426c7bb993a1e.jar"
+        jar="C:\Users\majac\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.0-SNAPSHOT\84bf42cfadeb55a3e369220329a1a035f1642030\gdx-backend-android-1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="84bf42cfadeb55a3e369220329a1a035f1642030"/>
+
+</pre-dex-items>
