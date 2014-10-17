@@ -57,6 +57,8 @@
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="gdx-backend-android-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="tween-engine-api-sources" level="project" />
+    <orderEntry type="library" exported="" name="tween-engine-api" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="core" exported="" />
   </component>

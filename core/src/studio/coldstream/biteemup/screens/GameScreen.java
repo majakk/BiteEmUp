@@ -28,9 +28,10 @@ public class GameScreen implements Screen {
         int midPointY = (int) (gameHeight / 2);
 
         world = new GameWorld(midPointX, midPointY);
+        Gdx.input.setInputProcessor(new InputHandler(world));
         renderer = new GameRenderer(world, midPointX, midPointY);
 
-        Gdx.input.setInputProcessor(new InputHandler(world));
+
     }
 
 
@@ -39,7 +40,7 @@ public class GameScreen implements Screen {
     public void render(float delta) {
         runTime += delta;
         world.update(delta);
-        renderer.render(runTime);
+        renderer.render(delta,runTime);
         //FPS check
         //Gdx.app.log("GameScreen FPS", (1/delta) + "");
     }

@@ -14,34 +14,48 @@ public class GameWorld {
     public long startTime, endTime;
 
     public GameState currentState;
+
+
+
     public enum GameState {
-        READY, RUNNING, GAMEOVER
+        MENU, READY, RUNNING, GAMEOVER, HIGHSCORE
     }
 
     public GameWorld(int midPointX, int midPointY){
-        currentState = GameState.READY;
+        currentState = GameState.MENU;
+        //currentState = GameState.READY;
         edible = new Edible(AssetLoader.pm, midPointX,midPointY,512,512);
     }
 
     public void update(float delta) {
         //Gdx.app.log("GameWorld", "update");
         switch (currentState){
+        case MENU:
         case READY:
             updateReady(delta);
+            break;
         case RUNNING:
-        default:
             updateRunning(delta);
+            break;
+        default:
+            break;
         }
 
 
     }
 
+    //Gamestate loop
     private void updateRunning(float delta) {
         edible.update(delta);
 
         if(edible.getCurrentPoints() == 0 && currentState == GameState.RUNNING) {
             endTime = System.currentTimeMillis();
             currentState = GameState.GAMEOVER;
+
+            if (endTime > AssetLoader.getHighScore()) {
+                AssetLoader.setHighScore(endTime);
+                currentState = GameState.HIGHSCORE;
+            }
         }
     }
 
@@ -49,13 +63,13 @@ public class GameWorld {
 
     }
 
-    public boolean isReady() {
-        return currentState == GameState.READY;
-    }
-
     public void start() {
         currentState = GameState.RUNNING;
         startTime = System.currentTimeMillis();
+    }
+
+    public void ready() {
+        currentState = GameState.READY;
     }
 
     public void restart() {
@@ -63,12 +77,30 @@ public class GameWorld {
         currentState = GameState.READY;
     }
 
+    public Edible getEdible(){
+        return edible;
+    }
+
+    public boolean isMenu() {
+        return currentState == GameState.MENU;
+    }
+
+    public boolean isReady() {
+        return currentState == GameState.READY;
+    }
+
+    public boolean isRunning() {
+        return currentState == GameState.RUNNING;
+    }
+
     public boolean isGameOver() {
         return currentState == GameState.GAMEOVER;
     }
 
-    public Edible getEdible(){
-        return edible;
+    public boolean isHighScore() {
+        return currentState == GameState.HIGHSCORE;
     }
+
+
 
 }
