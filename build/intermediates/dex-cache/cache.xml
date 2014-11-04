@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-35686e0351fd832ba4eaac352773050fbcda442f.jar"
         jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="8be8beb70b7ccae059d523e56670f6e44fb1821f"/>
+        sha1="8be8beb70b7ccae059d523e56670f6e44fb1821f">
+        <dex dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-35686e0351fd832ba4eaac352773050fbcda442f.jar" />
+    </item>
     <item
-        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\core-1.0-97b5efb6a6bf8aa69c8bb81f03ba009f71204698.jar"
-        jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\core\build\libs\core-1.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="439c30aed477be5b64ce31d7de55c1b297b4d513"/>
-    <item
-        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-sources-3c05a1e8b436c61462c771f2d15c85354aebb363.jar"
-        jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api-sources.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="b471c161e1bd73eb4a762a35d75b40eb5b4de3a1"/>
-    <item
-        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-1.0-SNAPSHOT-47a414b13944b2730a67cd161983fe9c6fa07716.jar"
-        jar="C:\Users\majac\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.0-SNAPSHOT\e544ea790a29a33485f683895bfa6507d805e91d\gdx-1.0-SNAPSHOT.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="e544ea790a29a33485f683895bfa6507d805e91d"/>
-    <item
-        dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.0-SNAPSHOT-42b599fd5613432a54e89d5a224426c7bb993a1e.jar"
         jar="C:\Users\majac\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.0-SNAPSHOT\84bf42cfadeb55a3e369220329a1a035f1642030\gdx-backend-android-1.0-SNAPSHOT.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="84bf42cfadeb55a3e369220329a1a035f1642030"/>
+        sha1="84bf42cfadeb55a3e369220329a1a035f1642030">
+        <dex dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.0-SNAPSHOT-42b599fd5613432a54e89d5a224426c7bb993a1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api-sources.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b471c161e1bd73eb4a762a35d75b40eb5b4de3a1">
+        <dex dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-sources-3c05a1e8b436c61462c771f2d15c85354aebb363.jar" />
+    </item>
+    <item
+        jar="C:\Users\majac\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.0-SNAPSHOT\e544ea790a29a33485f683895bfa6507d805e91d\gdx-1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e544ea790a29a33485f683895bfa6507d805e91d">
+        <dex dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-1.0-SNAPSHOT-47a414b13944b2730a67cd161983fe9c6fa07716.jar" />
+    </item>
+    <item
+        jar="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="22cf8a46ef06bf247a79143d1a8e295ef269779d">
+        <dex dex="C:\Users\majac\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\core-1.0-97b5efb6a6bf8aa69c8bb81f03ba009f71204698.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

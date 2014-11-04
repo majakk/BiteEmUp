@@ -20,7 +20,7 @@ import studio.coldstream.biteemup.tweenaccessors.ValueAccessor;
 import studio.coldstream.biteemup.ui.SimpleButton;
 
 /**
- * Created by majac on 2014-10-10.
+ * Created by Majakk on 2014-10-10.
  */
 public class GameRenderer {
     private GameWorld myWorld;
@@ -85,8 +85,13 @@ public class GameRenderer {
         AssetLoader.font2.draw(batcher, "READY?!", 800, 1000);
     }
 
-    private void drawScore() {
+    private void drawTotalTime() {
         AssetLoader.font2.draw(batcher, "TIME: " + String.valueOf((myWorld.endTime - myWorld.startTime)/1000.0f), 800, 1000);
+    }
+
+    private void drawBiteScore() {
+        if((edible.getFullPoints() - edible.getCurrentPoints()) > 0)
+            AssetLoader.font2.draw(batcher, String.valueOf(edible.getDeltaPoints()), 800, 1000);
     }
 
     private void drawMenuShape() {
@@ -153,7 +158,7 @@ public class GameRenderer {
         //States dependent drawing
         if (myWorld.isRunning()) {
             drawEdible(runTime);
-            //drawScore();
+            drawBiteScore();
         } else if (myWorld.isReady()) {
             drawEdible(runTime);
             drawReady();
@@ -162,10 +167,10 @@ public class GameRenderer {
             drawMenuText();
         } else if (myWorld.isGameOver()) {
             drawEdible(runTime);
-            drawScore();
+            drawTotalTime();
         } else if (myWorld.isHighScore()) {
             drawEdible(runTime);
-            drawScore();
+            drawTotalTime();
         }
 
         batcher.end();

@@ -12,7 +12,7 @@ public class Edible {
 
     private Vector2 position;
     private Vector2 centre;
-    private float rotation;
+    //private float rotation;
     private int width;
     private int height;
 
@@ -20,10 +20,11 @@ public class Edible {
 
     private boolean biteFlag;
     private Bite bite;
+    private int touches;
 
     private int fullPoints;
     private int currentPoints;
-    private int touches;
+    private int previousPoints;
 
     public Edible(Pixmap pix, float x, float y, int width, int height){
         this.width = width;
@@ -60,6 +61,7 @@ public class Edible {
         biteSound();
         bite.doBite(x, y, position, centre);
         touches++; //touches will not be the same as bites later on as not all touches leads to bites
+        previousPoints = currentPoints;
         currentPoints = calculatePoints();
     }
 
@@ -106,9 +108,9 @@ public class Edible {
         return height;
     }
 
-    public float getRotation() {
+    /*public float getRotation() {
         return rotation;
-    }
+    }*/
 
     public float getBlackBleed(){
         return bite.getBlackBleed();
@@ -121,6 +123,12 @@ public class Edible {
     public int getFullPoints(){
         return fullPoints;
     }
+
+    public int getDeltaPoints(){
+        return previousPoints - currentPoints;
+    }
+
+    public int getCurrentTouches() {return touches; }
 
 
 }
