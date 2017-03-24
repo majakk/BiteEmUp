@@ -1,6 +1,7 @@
 package studio.coldstream.biteemup.gameworld;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -69,6 +70,7 @@ public class GameRenderer {
 
     private void drawEdible(float runTime) {
         //Draw the shadow(s) first
+
         shadowSprite.draw(batcher);
 
         for(int i = 0; i < 4 * edible.getBlackBleed(); i++) {
@@ -136,12 +138,16 @@ public class GameRenderer {
             //finger
             shape.begin(ShapeRenderer.ShapeType.Filled);
             shape.setColor(1, 1, 0, 1);
-            shape.circle(Gdx.input.getX(),(Gdx.graphics.getWidth() / 2) - Gdx.input.getY(),100.0f);
+            shape.circle(Gdx.input.getX(), (Gdx.graphics.getWidth() / 2) - Gdx.input.getY(),100.0f);
             shape.end();
         }
 
+        //edSprite.setColor(Color.TEAL);
+        //edSprite.setTexture(AssetLoader.img);
+        //edSprite.
         shadowSprite.setColor(0, 0, 0, 1);
-        //shadowSprite.setScale(1.0f, 1.0f);
+        //edSprite.setScale(2.0f);
+        //shadowSprite.setScale(2.0f);
 
         //Draw Shapes
         if (myWorld.isMenu()) {

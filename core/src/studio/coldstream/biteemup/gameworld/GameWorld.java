@@ -24,7 +24,8 @@ public class GameWorld {
     public GameWorld(int midPointX, int midPointY){
         currentState = GameState.MENU;
         //currentState = GameState.READY;
-        edible = new Edible(AssetLoader.pm, midPointX,midPointY,512,512);
+        //edible = new Edible(AssetLoader.pm, midPointX,midPointY,512,512);
+        edible = new Edible(AssetLoader.pm, midPointX,midPointY,256,256);
     }
 
     public void update(float delta) {
