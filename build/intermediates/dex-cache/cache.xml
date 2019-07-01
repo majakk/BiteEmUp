@@ -2,46 +2,49 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\matti\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.6\47d1e9b890e364ec28f128e9bb3b9a12a94c164\gdx-1.9.6.jar"
+        is-multidex="false"
+        jar="C:\Users\Scalar\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.6\47d1e9b890e364ec28f128e9bb3b9a12a94c164\gdx-1.9.6.jar"
         jumboMode="false"
-        revision="25.0.2"
+        optimize="true"
+        revision="28.0.3"
         sha1="047d1e9b890e364ec28f128e9bb3b9a12a94c164">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-1.9.6-ba820d607194cceffd9deea2f192e4e8cb6be9b7.jar" />
+        <dex dex="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-1.9.6_d13d499778fa4a60934a7722279705ca11dfba90.jar" />
     </item>
     <item
-        jar="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\core\build\libs\core-1.0.jar"
+        is-multidex="false"
+        jar="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api.jar"
         jumboMode="false"
-        revision="25.0.2"
-        sha1="92b671f39f6bae79c42d745abca8565ef1d8fc4b">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\core-1.0-f4d216f88288b5d5c05bd6f99656d63de2f84844.jar" />
-    </item>
-    <item
-        jar="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api-sources.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="b471c161e1bd73eb4a762a35d75b40eb5b4de3a1">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-sources-1f4e342aab90ff0e6be111dcc5cb5f847106cc8c.jar" />
-    </item>
-    <item
-        jar="C:\Users\matti\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.6\57c2831c870743712b808384187ea856e541878f\gdx-backend-android-1.9.6.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="57c2831c870743712b808384187ea856e541878f">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.6-975ecb82044ed04c8bdf9ea7f4ecb46ae0d54df3.jar" />
-    </item>
-    <item
-        jar="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\libs\tween-engine-api.jar"
-        jumboMode="false"
-        revision="25.0.2"
+        optimize="true"
+        revision="28.0.3"
         sha1="8be8beb70b7ccae059d523e56670f6e44fb1821f">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api-0adc4f208a5eb44ebdac39287cd6a1e2e1ed1871.jar" />
+        <dex dex="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\tween-engine-api_d9ab14c6f98a473f283b1ca615793967d4c353c5.jar" />
     </item>
     <item
-        jar="C:\Users\matti\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.6\69187cc3c8062f191df435b43671b0e5ffcbf353\gdx-freetype-1.9.6.jar"
+        is-multidex="false"
+        jar="C:\Users\Scalar\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.6\69187cc3c8062f191df435b43671b0e5ffcbf353\gdx-freetype-1.9.6.jar"
         jumboMode="false"
-        revision="25.0.2"
+        optimize="true"
+        revision="28.0.3"
         sha1="69187cc3c8062f191df435b43671b0e5ffcbf353">
-        <dex dex="C:\Users\matti\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-freetype-1.9.6-eacc9df10ad0c56655418fd67dd5a58fea4a98d9.jar" />
+        <dex dex="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-freetype-1.9.6_3003cc22a9f08119e633317573363bd03d639e52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5dd4350e8218db2371cb1e94154d560d902a64df">
+        <dex dex="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\core-1.0_25ba6d46446b2aceb9b968e612f030be00866b7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Scalar\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.6\57c2831c870743712b808384187ea856e541878f\gdx-backend-android-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="57c2831c870743712b808384187ea856e541878f">
+        <dex dex="C:\Users\Scalar\Dropbox\Android Studio Projects\BiteEmUp\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.6_10cd256535f8d07d422ea78c07529303412587d1.jar" />
     </item>
 
 </items>
